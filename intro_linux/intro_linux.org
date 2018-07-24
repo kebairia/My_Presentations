@@ -1,0 +1,114 @@
+#+TITLE:Gnu/Linux
+#+AUTHOR: Kebairia Zakaria
+#+Email: 4.kebairia@gmail.com
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: reveal_single_file:t
+#+OPTIONS:multiplex
+#+REVEAL_THEME:night 
+#+REVEAL_TRANS:slide  
+#+REVEAL_TITLE_SLIDE_BACKGROUND: zakaria
+* 
+* Heading 1
+   Some contents.
+#+BEGIN_NOTES
+  Enter speaker notes here.
+#+END_NOTES
+* 
+#+REVEAL_HTML
+<div>
+<p> this is me here <b>zaki</b></p>
+</div>
+#+END_HTML
+* Gnu/Linux
+ Very Short Introduction
+  #+ATTR_REVEAL: :frag (appear)
+   by : Kebairia Zakaria
+* Some History
+  #+ATTR_REVEAL: :frag (appear)
+  At the Beginning, computer were:
+  #+ATTR_REVEAL: :frag (appear)
+  - Very Primitive.                            
+  - Very Limited.                                    
+* the bigining was with punch cards
+:PROPERTIES:
+:reveal_background: ./img/punched_card.jpg
+:reveal_background_trans: fade
+:END:
+* 
+:PROPERTIES:
+:REVEAL_TITLE_SLIDE_BACKGROUND: zakaria
+:reveal_background: ./img/pc2.png
+:reveal_background_trans: fade
+:END:
+* The Begining
+** MULTICS
+  #+ATTR_REVEAL: :frag (appear)
+   Bell Labs and GE joined an MIT project known as:
+  #+ATTR_REVEAL: :frag (appear)
+   /MULTICS/ the “Multiplexed information and computing system” 1965
+  #+ATTR_REVEAL: :frag (appear)
+   - Multics waas intended to be a stable , timesharing OS
+   - The “Multiplexed” aspect added unnecessary complexity. 
+  #+ATTR_REVEAL: :frag (appear)
+     - Bell Labs abandon the project in 1969
+* 
+   :PROPERTIES:
+   :reveal_background: ./img/scientist.png
+   :reveal_background_trans: fade
+   :END:
+* Unix  
+** Pipes
+   the killer point in unix was the Pipes concept 
+   we will see the pipe concept later 
+* “Every thing is a file” and pipes 
+   :PROPERTIES:
+   :reveal_background: ./img/files.png
+   :reveal_background_trans: fade
+   :END:
+** Every thing is a file:
+   
+  #+ATTR_REVEAL: :frag (appear)
+   - Device Drivers
+   - Directories
+   - System Configuration
+   - Processes
+   - All represented as files on the filesystem.
+  #+ATTR_REVEAL: :frag (appear)
+     - =/dev/sda=
+     - =/proc/cpuinfo=
+** 
+   - this concept provide a really clean simple system Design
+     Because the (open,clse,read,write) operations of files.
+* BSD 
+  #+ATTR_REVEAL: :frag (appear)
+   Berkeley Software Distribution 
+** 
+   Berkeley University Picture
+* GNU
+  #+ATTR_REVEAL: :frag (appear)
+  *Gnu* is not *Unix*
+** 
+   Gnu Picture
+** 
+  Retchard Stalman Picture
+  his turning point (fix the printer driver)
+  not allowed 
+  so he creat an entire operating system that follow his philosophy of freedom
+** GPL
+   Gnu General Public License
+** 
+the Gnu Project was aimed of replacing the userland tools of unix with free software equvalents
+
+the kernel was another part of the overall goal. and so on 
+one can't have a kernel in isolation 
+the kernel needs an editor , a compiler and a linker to be built 
+and some kind of initialization process in order to boot 
+
+* Linux
+
+
+* Connect with me:
+  #+ATTR_REVEAL: :frag (appear)
+  + Facebook:[[https:www.facebook.com/4.Zakaria.K][4.Zakaria.K]] 
+  + Github:[[https:www.github.com/kebairia][@kebairia]] 
