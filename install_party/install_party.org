@@ -1,0 +1,144 @@
+#+TITLE:Install Party
+#+AUTHOR: Kebairia Zakaria
+#+Email: 4.kebairia@gmail.com
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: reveal_single_file:t
+#+OPTIONS:multiplex
+#+REVEAL_THEME:night  
+#+REVEAL_TRANS:convex  
+#+REVEAL_TITLE_SLIDE_BACKGROUND: zakaria
+* Agenda
+  #+ATTR_REVEAL: :frag (appear)
+** 
+  - Part I
+    - Getting the Distro
+    - Getting the Distro
+      - Distro Editions
+      - Downloading a disc image
+      - Distro commnunity editions
+      - Checking the disc image for errors
+      - Check a Downloaded ISO Image For Errors
+	- MD5, SHA1 and SHA256
+	- Checking in Linux
+	- Checking in Windows
+      - Writing a disc image 
+** 
+  - Part II
+    - Installing the Distro
+      - Booting the live envirement 
+      - Bios and (MBR vs UEFI)
+** 
+   - Part III
+     - Some useful definitions
+* Part I
+  #+ATTR_REVEAL: :frag (appear)
+  Getting the Distro
+** Distro Editions
+  #+ATTR_REVEAL: :frag (appear)
+   - Check your CPU Arch
+   - Choose the Envirement
+  #+ATTR_REVEAL: :frag (appear)
+     - XFCE
+     - KDE
+     - GNOME SHELL/CALSSIC
+     - LXDE ...etc
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/plasma.jpg
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/Mate.png
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/gnome_shell.png
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/cinnamon.jpg
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/xfce.png
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/lxde.png
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/unity.png
+   :reveal_background_size: 900px
+   :reveal_background_trans: slide
+   :END:
+
+** Downloading a disc image
+** Distro community editions
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/releases.png
+   :reveal_background_trans: slide
+   :END:
+** Checking the disc image for errors
+   #+ATTR_REVEAL: :frag (appear)
+   SHA (Secure Hash Algorithm)
+   #+ATTR_REVEAL: :frag (appear)
+   - MD5
+   - SHA256
+   - SHA512
+   - ...etc
+*** Checking in Linux
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_SRC sh
+~$ sha1sum -c example.sha1
+#+END_SRC
+*** Checking in Microsoft Windows
+*** 
+   :PROPERTIES:
+   :reveal_background: ./img/checksum.png
+   :reveal_background_trans: slide
+   :END:
+** Writing a disc image
+   - Unitbootin
+   - Refus
+** 
+   :PROPERTIES:
+   :reveal_background: ./img/rufus.png
+   :reveal_background_trans: slide
+   :END:
+* Part II 
+** Installing the Distro
+*** Booting the Live environment
+*** BIOS and ,MBR vs UEFI/EFI
+    - BIOS (Basic Input Output System)
+    - UEFI (Unified Extensible Firmware Interface)
+
+* Part III
+** Some useful definitions
+#+ATTR_REVEAL: :frag (appear)
+   - Partition    
+   - File system
+   - Partition table
+   - Live-CD
+   - BIOS
+   - UEFI The Unified Extensible Firmware Interface
+   - Boot loader
+
+* Connect with me:
+  #+ATTR_REVEAL: :frag (appear)
+  + Facebook:[[https:www.facebook.com/4.Zakaria.K][4.Zakaria.K]] 
+  + Github:[[https:www.github.com/kebairia][@kebairia]] 
